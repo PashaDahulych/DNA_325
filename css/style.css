@@ -3110,7 +3110,7 @@ h6 {
   }
 
   .page__resume {
-    margin-bottom: 9.375rem;
+    padding-bottom: 9.375rem;
   }
 
   .page__candidate {
@@ -5324,7 +5324,7 @@ h6 {
   }
 
   .page__resume {
-    margin-bottom: 3.125rem;
+    padding-bottom: 3.125rem;
   }
 
   .page__scale {
@@ -5764,15 +5764,15 @@ h6 {
     }
 }
 
-@supports (margin-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem )) {
+@supports (padding-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem )) {
     .page__resume {
-      margin-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem );
+      padding-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem )) {
+@supports not (padding-bottom: clamp( 3.125rem , -0.2604166667rem  +  13.8888888889vw , 9.375rem )) {
     .page__resume {
-      margin-bottom: calc(3.125rem + 6.25 * (100vw - 24.375rem) / 45);
+      padding-bottom: calc(3.125rem + 6.25 * (100vw - 24.375rem) / 45);
     }
 }
 
